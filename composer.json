@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Boly\\TableBuilder\\FormBuilderServiceProvider"
+                "Boly\\FormBuilder\\FormBuilderServiceProvider"
             ]
         }
     }
