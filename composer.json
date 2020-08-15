@@ -1,0 +1,26 @@
+{
+    "name": "boly/form-builder",
+    "description": "build your form server side",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmed Abdelaal",
+            "email": "ahmed.abdelaal1921@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Boly\\FormBuilder\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Boly\\TableBuilder\\FormBuilderServiceProvider"
+            ]
+        }
+    }
+}
